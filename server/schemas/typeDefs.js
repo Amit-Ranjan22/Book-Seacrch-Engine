@@ -12,4 +12,12 @@ type Book {
     image: String
     link: String
   }
+
+type User {
+    _id: ID!
+    username: String
+    email: String
+    bookCount: Int
+    savedBooks: [Book]
+  }
 `;
